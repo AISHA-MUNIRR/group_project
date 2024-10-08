@@ -1,0 +1,126 @@
+/* Reset some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+#hero {
+    background-image: url('assets/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#hero button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Services Section */
+#services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service {
+    display: inline-block;
+    margin: 20px;
+    max-width: 300px;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+}
+
+.service h3 {
+    margin: 10px 0;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.portfolio-item {
+    display: inline-block;
+    margin: 20px;
+}
+
+.portfolio-item img {
+    width: 300px;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 10px 0;
+}
