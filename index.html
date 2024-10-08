@@ -3,14 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creative Minds</title>
+    <title>Creative Minds - Design Agency</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Creative Minds</h1>
-        <p>Your creative agency for design and innovation.</p>
+        <nav>
+            <div class="logo">
+                <img src="assets/logo.png" alt="Creative Minds Logo">
+            </div>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <section id="hero">
+        <h1>Welcome to Creative Minds</h1>
+        <p>Your vision, our creation.</p>
+        <button onclick="alertMessage()">Get Started</button>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a design agency with a passion for creating stunning websites and designs.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <img src="assets/web-design.jpg" alt="Web Design">
+            <h3>Web Design</h3>
+            <p>We create visually appealing and user-friendly websites.</p>
+        </div>
+        <div class="service">
+            <img src="assets/graphic-design.jpg" alt="Graphic Design">
+            <h3>Graphic Design</h3>
+            <p>Our designs speak louder than words, enhancing your brand image.</p>
+        </div>
+        <div class="service">
+            <img src="assets/seo.jpg" alt="SEO">
+            <h3>SEO Optimization</h3>
+            <p>Improving your website's visibility on search engines.</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-item">
+            <img src="assets/project1.jpg" alt="Project 1">
+            <p>Project 1 - E-commerce Website</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="assets/project2.jpg" alt="Project 2">
+            <p>Project 2 - Restaurant Website</p>
+        </div>
+    </section>
+
+    <footer>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@creativeminds.com</p>
+            <p>Phone: +123 456 7890</p>
+        </section>
+        <p>&copy; 2024 Creative Minds. All Rights Reserved.</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
